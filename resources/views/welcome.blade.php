@@ -14,9 +14,9 @@
         html, body {
             background-color: #fff;
 
-            {{--background-image: url({{asset("storage/background/library.jpg")}});--}}
-            {{--background-size: auto;--}}
-            {{--background-repeat: no-repeat;--}}
+            background-image: url({{asset("storage/background/library.jpg")}});
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
 
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
@@ -45,7 +45,7 @@
         }
 
         .links > a {
-            color: #636b6f;
+            color: #ffffff;
             padding: 0 25px;
             font-size: 13px;
             font-weight: 600;
@@ -54,11 +54,6 @@
             text-transform: uppercase;
         }
 
-        .background {
-            background-image: url({{asset("storage/background/library.jpg")}});
-            background-size: auto;
-            background-repeat: no-repeat;
-        }
     </style>
 </head>
 <body>
@@ -76,10 +71,6 @@
             @endauth
         </div>
     @endif
-</div>
-<div class="container">
-    <div class="background">
-    </div>
 </div>
 </body>
 </html>
