@@ -2,18 +2,26 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Gate;
 
 class LibrarianController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+    protected $librarian;
+    public function __construct(User $user)
+    {
+        $this->librarian = $user;
+    }
+
     public function index()
     {
-        return view('librarians.list');
+        if (Gate::allows('admin')){
+        $listLibrarian = $this->librarian->all();
+        return view('librarians.list', compact('listLibrarian'));
+        } else {
+            abort(403, "You are not authorized");
+        }
     }
 
     /**
@@ -79,6 +87,10 @@ class LibrarianController extends Controller
      */
     public function destroy($id)
     {
-        //
+        if (Gate::allows('admin')){
+            $librarian = $this->librarian->findOrFail($id);
+            $librarian->delete();
+            return redirect()->route('librarians.dashboard');
+        }
     }
 }

@@ -22,6 +22,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::prefix('/dsf')->group(function () {
-    Route::get('list', 'LibrarianController@index')->name('librarians.list');
+Route::prefix('/users')->group(function () {
+    Route::get('dashboard', 'LibrarianController@index')->name('librarians.dashboard');
+    Route::get('{id}/destroy', 'LibrarianController@destroy')->name('librarians.destroy');
 });
