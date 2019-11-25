@@ -91,6 +91,8 @@ class LibrarianController extends Controller
             $librarian = $this->librarian->findOrFail($id);
             $librarian->delete();
             return redirect()->route('librarians.dashboard');
+        } else{
+            abort(403,"You are not authorized");
         }
     }
 }

@@ -38,18 +38,18 @@
                     <nav id="nav-menu-container">
                         <ul class="nav-menu">
                             <li class="menu-active"><a href="{{route("home")}}">Home</a></li>
-                            <li><a href="archive.html">Archive</a></li>
-                            <li><a href="category.html">Category</a></li>
-                            <li class="menu-has-children"><a href="">Post Types</a>
+                            <li><a href="#">Archive</a></li>
+                            <li><a href="#"  class="menu-has-children">Category</a>
                                 <ul>
-                                    <li><a href="standard-post.html">Standard Post</a></li>
-                                    <li><a href="image-post.html">Image Post</a></li>
-                                    <li><a href="gallery-post.html">Gallery Post</a></li>
-                                    <li><a href="video-post.html">Video Post</a></li>
-                                    <li><a href="audio-post.html">Audio Post</a></li>
+                                    <li><a href="#">Standard Post</a></li>
+                                    <li><a href="#">Image Post</a></li>
+                                    <li><a href="#">Gallery Post</a></li>
+                                    <li><a href="#">Video Post</a></li>
+                                    <li><a href="#">Audio Post</a></li>
                                 </ul>
                             </li>
-                            <li><a href="about.html">About</a></li>
+                            <li><a href="">Post Types</a></li>
+                            <li><a href="#">About</a></li>
                             @can('admin')
                                 <li><a href="{{route('librarians.dashboard')}}">
                                         <i class="fa fa-user"></i>

@@ -10,11 +10,11 @@
                         <div class="feature-image-thumb relative">
                             <div class="overlay overlay-bg"></div>
                             <img class="img-fluid"
-                                 src="img/conan_2.jpg"
+                                 src="{{asset('img/conan_2.jpg')}}"
                                  alt="">
                         </div>
                         <div class="top-post-details">
-                            <a href="image-post.html">
+                            <a href="#">
                                 <h3>Conan</h3>
                             </a>
                             <ul class="meta">
@@ -28,11 +28,11 @@
                         <div class="single-top-post">
                             <div class="feature-image-thumb relative">
                                 <div class="overlay overlay-bg"></div>
-                                <img class="img-fluid" src="img/top-post2.jpg" alt="">
+                                <img class="img-fluid" src="{{asset('img/one_punch_man.jpg')}}" alt="">
                             </div>
                             <div class="top-post-details">
-                                <a href="image-post.html">
-                                    <h4>A Discount Toner Cartridge Is Better Than Ever.</h4>
+                                <a href="#">
+                                    <h4>One Punch Man</h4>
                                 </a>
                                 <ul class="meta">
                                     <li><a href="#"><span class="lnr lnr-user"></span>Mark wiens</a></li>
@@ -44,11 +44,11 @@
                         <div class="single-top-post mt-10">
                             <div class="feature-image-thumb relative">
                                 <div class="overlay overlay-bg"></div>
-                                <img class="img-fluid" src="img/top-post3.jpg" alt="">
+                                <img class="img-fluid" src="{{asset('img/thieu_soai_vo_ngai_lai_bo_tron.jpg')}}" alt="">
                             </div>
                             <div class="top-post-details">
-                                <a href="image-post.html">
-                                    <h4>A Discount Toner Cartridge Is Better</h4>
+                                <a href="#">
+                                    <h4>Thiếu soái vợ ngài lại bỏ trốn</h4>
                                 </a>
                                 <ul class="meta">
                                     <li><a href="#"><span class="lnr lnr-user"></span>Mark wiens</a></li>
@@ -74,11 +74,11 @@
                                 <div class="col-lg-5 post-left">
                                     <div class="feature-img relative">
                                         <div class="overlay overlay-bg"></div>
-                                        <img class="img-fluid" src="img/nuhoangaicap_33.jpg" alt="">
+                                        <img class="img-fluid" src="{{asset('img/nuhoangaicap_33.jpg')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-7 post-right">
-                                    <a href="image-post.html">
+                                    <a href="#">
                                         <h4>Nữ Hoàng Ai Cập</h4>
                                     </a>
                                     <ul class="meta">
@@ -97,11 +97,11 @@
                                 <div class="col-lg-5 post-left">
                                     <div class="feature-img relative">
                                         <div class="overlay overlay-bg"></div>
-                                        <img class="img-fluid" src="img/echi_1.jpg" alt="">
+                                        <img class="img-fluid" src="{{asset('img/echi_1.jpg')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-7 post-right">
-                                    <a href="image-post.html">
+                                    <a href="#">
                                         <h4>To Love-Ru</h4>
                                     </a>
                                     <ul class="meta">
@@ -122,11 +122,11 @@
                                 <div class="col-lg-5 post-left">
                                     <div class="feature-img relative">
                                         <div class="overlay overlay-bg"></div>
-                                        <img class="img-fluid" src="img/Keijo!!!!!!!!.jpg" alt="">
+                                        <img class="img-fluid" src="{{asset('img/Keijo!!!!!!!!.jpg')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-7 post-right">
-                                    <a href="image-post.html">
+                                    <a href="#">
                                         <h4>Keijo!!!!!!!!</h4>
                                     </a>
                                     <ul class="meta">
@@ -148,11 +148,11 @@
                                 <div class="col-lg-5 post-left">
                                     <div class="feature-img relative">
                                         <div class="overlay overlay-bg"></div>
-                                        <img class="img-fluid" src="img/onepiece_1.jpg" alt="">
+                                        <img class="img-fluid" src="{{asset('img/onepiece_1.jpg')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-7 post-right">
-                                    <a href="image-post.html">
+                                    <a href="#">
                                         <h4>One Piece</h4>
                                     </a>
                                     <ul class="meta">
@@ -175,7 +175,7 @@
 
                         <!-- Start banner-ads Area -->
                         <div class="col-lg-12 ad-widget-wrap mt-30 mb-30">
-                            <img class="img-fluid" src="img/banner-ad.jpg" alt="">
+                            <img class="img-fluid" src="{{asset('img/banner-ad.jpg')}}" alt="">
                         </div>
 
                     </div>
@@ -194,7 +194,7 @@
                                         </ul>
                                     </div>
                                     <div class="details">
-                                        <a href="image-post.html">
+                                        <a href="#">
                                             <h4 class="mt-20">A Discount Toner Cartridge Is
                                                 Better Than Ever.</h4>
                                         </a>
@@ -215,7 +215,7 @@
                                                 <img src="img/e2.jpg" alt="">
                                             </div>
                                             <div class="detail">
-                                                <a href="image-post.html"><h6>Help Finding Information
+                                                <a href="#"><h6>Help Finding Information
                                                         Online is so easy</h6></a>
                                                 <ul class="meta">
                                                     <li><a href="#"><span class="lnr lnr-calendar-full"></span>03 April,
@@ -229,7 +229,7 @@
                                                 <img src="img/e3.jpg" alt="">
                                             </div>
                                             <div class="detail">
-                                                <a href="image-post.html"><h6>Compatible Inkjet Cartr
+                                                <a href="#"><h6>Compatible Inkjet Cartr
                                                         world famous</h6></a>
                                                 <ul class="meta">
                                                     <li><a href="#"><span class="lnr lnr-calendar-full"></span>03 April,
